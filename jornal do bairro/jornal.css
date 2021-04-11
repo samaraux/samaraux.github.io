@@ -1,0 +1,46 @@
+html{width: 100%;}
+body{background-color:cornflowerblue; 
+     }
+#corpo{margin-left: 180px; margin-right: 180px; margin-top: 30px;}
+header{background-color: rgb(213, 235, 255);}
+nav ul{box-sizing: border-box;
+       padding: 0px;  
+       list-style-type: none;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin: -5px;
+       height: 62px;
+                   }
+       
+nav ul li:hover{
+    cursor: pointer;
+    color: rgb(2, 2, 2);
+    border: double 5px black;
+height: 17px;}
+h1{margin: 0%;
+color: rgb(255, 255, 255);
+text-shadow:  6px 3px  rgb(0, 0, 0) ;
+font-size: 50px;
+font-family:'Algerian';
+}
+#img-aranha{
+    width:400px;
+    height: 300px;
+    margin: 30px;
+    
+}
+.paragrafo {color: aliceblue;
+    position: absolute;top: 110px; left: 650px;
+font-size: 30px; cursor: pointer; }
+
+.homem-aranha{ box-shadow: 4px 5px 9px 7px black; 
+    margin-top: 0px;
+    margin-right: 100px;
+   
+ }
+ #walter{ position: absolute;top: 200px; left: 650px;}
+ .ler-mais:hover{ cursor: pointer;
+    color: rgb(2, 2, 2);
+     box-shadow: 5px 5px 5px black;
+     font-size: 20px;}
