@@ -1,0 +1,131 @@
+html{width: 100%;
+height: 100%;}
+body{background-color:rgb(219, 216, 172); 
+     }
+#corpo{margin-left: 240px; margin-right: 180px; margin-top: 30px;}
+header{background-color:rgb(227, 242, 255) ;
+}
+nav ul{box-sizing: border-box;
+       padding: 0px;  
+       list-style-type: none;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin: -5px;
+       height: 62px;
+             }
+       
+nav ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: double 5px black;
+    
+height: 17px;}
+h1{margin-top: -55px;
+color: rgb(0, 0, 0);
+text-shadow:  5px 3px 9PX rgb(6, 136, 110) ;
+font-size: 50px;
+font-family:'Algerian';
+}
+#img-aranha{
+    width:400px;
+    height: 300px;
+    margin: 30px;
+    
+}
+.paragrafo {color: aliceblue;
+    position: absolute;top: 110px; left: 710px;
+font-size: 30px; cursor: pointer; }
+
+.homem-aranha{ box-shadow: 4px 5px 9px 7px black; 
+    margin-top: 0px;
+    margin-right: 100px;
+   
+   
+ }
+ #walter{ position: absolute;top: 200px; left: 690px;
+ font-size: 23px;}
+ .ler-mais:hover{ cursor: pointer;
+    color: rgb(2, 2, 2);
+     box-shadow: 5px 5px 5px black;
+     font-size: 20px;}
+     
+
+     #noticias-de-baixo{
+     position: absolute;top: 590px;left:200px;
+     justify-content: space-around;
+     flex-direction: row;
+     display: flex;
+    list-style-type: none;
+     }
+   #noticias-de-baixo-do-de-baixo{
+     position: absolute;top: 910px;left:200px;
+     display: flex;
+     list-style-type: none;
+     
+    }
+    #noticias-3{ position: absolute;top: 1650px;left:200px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        
+       
+    }
+    .border{box-shadow: black 3px 3px 9px;
+            border: black 3px solid;
+    }
+         h2{color: rgb(0, 0, 0);
+            text-shadow:  5px 3px 9PX rgb(6, 136, 110) ;
+            font-size: 50px;
+            font-family:'Algerian';
+         position: relative;left: 600px;
+         
+          }
+          
+          
+
+          #anuncio{ position: absolute;top: 1230px;left:410px
+           ; border: solid white;} 
+           .anuncio{position: absolute;top: 1193px;left:410px
+            ;}     
+            ol{ list-style-type: square; font-size: 20px;}
+            #hr1{ margin-left: 290px ;
+            margin-right: 250px;}
+            #entreterimento{ font-size: 25px; 
+            position:absolute;top: 530px;left:200px;
+            color: white;
+        }
+            #economia{ font-size: 25px; 
+                position:absolute;top: 850px;left:200px;
+                color: white;}
+        #hr2{ margin-left: 370px ;
+            margin-right: 250px;
+            margin-top: 320px;
+            }
+            #noticias{font-size: 25px; 
+                position:absolute;top: 1590px;left:200px;
+                color: white;}
+           #hr3{margin-right: 250px;
+               margin-left: 300px;
+            margin-top: 735px;}
+            #endereco{ margin-right: 390px;
+            margin-top:100px ;}
+          
+            footer {
+                position: absolute;
+                bottom: -250%;
+                width: 99%;
+                background-color:rgb(213, 234, 253);
+                
+                text-align: center;
+                display: flex;}  
+                #youtube{margin-top: 200px;
+                margin-left: -400px;} 
+                #ol-footer{ justify-content: space-around;
+                    flex-direction: row;
+                    display: flex;
+                    margin-top: 150px;}
+                    #maps{ position: absolute;top:200px; left: 330px;}
+        
+               
+           
