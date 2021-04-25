@@ -158,8 +158,8 @@ font-size: 30px; cursor: pointer; }
 
  h1{text-transform:uppercase;
     cursor: pointer;
-    transition:all 10s;color: rgb(0, 0, 0);
-    animation: jmf 10s linear;
+    transition:all 15s;color: rgb(0, 0, 0);
+    animation: jmf 15s linear;
    } 
        
 @keyframes jmf{
