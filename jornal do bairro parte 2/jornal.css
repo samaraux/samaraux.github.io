@@ -170,7 +170,7 @@ font-size: 30px; cursor: pointer; }
     50%{color: rgb(255, 98, 208);}
     60%{color: rgb(174, 0, 255);}
     100%{text-shadow:5px 3px 9px rgb(6, 136, 110);}
-    
+    0%{transform: translateX(-35px);}
 }
 #pateta:visited{color: red;}
                  
