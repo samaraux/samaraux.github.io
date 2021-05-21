@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        res2 = parseInt(prompt('quantos numeros terão sua media?'));
+        res = 0;
+        soma = 0;
+        n = 0;
+        //n1 = prompt('digite um numero')
+        
+        while(res < res2)
+          {
+            n = parseInt(prompt("Digite o número "+(res+1)));
+            soma += n;
+            res++;
+       }
+       media = soma/res2;
+       alert('a soma dos numeros é '+soma+'e a media é '+media+'')
+    
+    </script>  
+</body>
