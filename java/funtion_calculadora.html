@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+       function atividade(){
+           
+     let numero
+     let numero2
+     let resultado
+
+     numero = prompt('Digite um numero inteiro');
+     resultado = prompt(' 1 - soma  2 - subtração 3 - multiplicação 4 - divisão');
+     numero2 = prompt('Digite outro numero inteiro');
+    
+     if(resultado == 1)
+    {
+        resultado = parseInt(numero) + parseInt(numero2)
+        alert('O resultado  é '+ resultado +'');
+    }
+    else if(resultado == 2)
+    {
+        resultado = parseInt(numero) - parseInt(numero2)
+        alert('O resultado é '+ resultado +'');
+    }
+    else if(resultado == 3)
+    {
+        resultado =parseInt(numero) * parseInt(numero2)
+        alert('O resultado é '+ resultado +'');
+    }
+    else if(resultado == 4)
+    {
+        resultado =parseInt(numero) / parseInt(numero2)
+        alert('O resultado é '+ resultado +'');
+    }
+      
+}
+     atividade()
+        
+        
+        
+        
+        
+        
+        
+    </script>
+</body>
+</html>
