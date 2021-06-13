@@ -1,0 +1,147 @@
+
+body{ 
+  background-color: rgb(112, 146, 190) ; 
+}
+
+/*animação do titulo */
+span::before
+{
+    position: absolute;top: -460px;
+    margin:450px;
+    font-size:70px;
+    content: '';
+    animation: word-swith 5s infinite;
+}
+
+@keyframes word-swith 
+{
+    0% {content: '\01F4DA'}
+
+    50%{content: '	\01F4D6';}
+
+    100%{content: '	\01F9E0';}
+}
+#imagem{
+  background-color:white;
+  border:solid 1px;
+  border-radius:15px;
+  width:30px;
+  margin-left:1030px;
+  margin-top:-45px;
+}
+
+button{
+  margin-left:900px;
+  margin-top:-45px;
+  display: flex;
+  border-radius: 50px;
+}
+
+/* estilo do titulo do site*/
+#titulo{
+    list-style: none;
+    font-size:50px ;
+    font-family: "French Script MT";
+    margin-left:550px;
+    color:white;
+}
+
+/* todas as HRs*/
+#hr1{
+    margin-top: 70px;
+}
+#hr2{
+    margin-top: 250px;
+}
+#hr3{
+  margin-top: 500px;
+}
+
+/* as tres primeiras imagens */
+#lista1{
+  list-style-type: none;
+  display: flex;
+  text-indent: 60px;
+  margin-top: -284px;
+  margin-left: 40px;
+ 
+}
+.imagem2{
+  border: solid rgb(0, 0, 0) 5px;
+}
+.imagem2:hover{
+  cursor:pointer;
+  text-decoration: underline;
+  box-shadow: 12px 18px 28px 18px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.5s;
+}
+
+/*lista de livros principais*/
+p{
+  color: aliceblue;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 30px;
+}
+ol{
+  margin-left:-20px ; 
+  list-style: none;
+  display:flex;
+  text-indent: 45px;/* espaçamento entre as imagens*/
+  margin-top: 50px;
+}
+
+ol img{
+  border: solid 2px aliceblue;
+  border-radius: 3%;
+
+}
+
+  /*slide*/
+.carrosel{
+    height: 500px;
+    /* outline: 4px solid rgb(0, 0, 0); */
+    overflow:hidden;
+    margin: 60px;
+    box-shadow: 28px 28px 18px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+    width: 700px;
+    border: rgb(0, 0, 0) solid;
+}
+  .carrosel ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: -170px; 
+
+  }
+  .carrosel li{
+    position: relative;
+    animation:infinite  10s slide ; 
+
+  }
+@keyframes slide{
+}
+
+/* opcoes da semana */
+#opcoes{
+  
+  margin-top: -560px;
+  margin-left: 1000px;
+}
+
+
+
+footer{
+  margin-left:-10px;
+  margin-right:-8px;
+  margin-bottom: -10px;
+}
+#livro{
+  margin-left:550px;
+}
+
+@media only screen and (max-width: 500px) {
+  
+  
+}
