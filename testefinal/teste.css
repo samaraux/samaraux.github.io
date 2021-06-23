@@ -229,7 +229,7 @@ span::before
 /* estilo do titulo do site*/
 #titulo{
     list-style: none;
-    font-size:150px ;
+    font-size:100px ;
     font-family: "French Script MT";
     margin-left:550px;
     color:white;
