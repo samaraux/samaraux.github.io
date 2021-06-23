@@ -203,13 +203,5 @@ footer{
     content: '';
     animation: word-swith 5s infinite;
 }
-#hr1{
-  margin-right: 2600px;
-}
-#hr2{
-  margin-right: 2600px;
-}
-#hr3{
-  margin-right: 2600px;
-}
+
 }
