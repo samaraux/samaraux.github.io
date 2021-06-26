@@ -1,0 +1,17 @@
+body{
+    border: cadetblue solid;
+    padding: 12px;
+    height: 500px;
+    background-color: rgb(177, 238, 238);
+}
+input{
+   border-radius: 20px;
+}
+#nome{
+    margin-left: 450px;
+}
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 400px;
+}
