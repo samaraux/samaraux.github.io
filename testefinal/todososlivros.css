@@ -1,0 +1,41 @@
+body{ 
+    background-color: rgb(112, 146, 190) ; 
+  }
+  #titulo{
+    list-style: none;
+    font-size:50px ;
+    font-family: "French Script MT";
+    margin-left:550px;
+    color:white;
+}
+span::before
+{
+    position: absolute;top: -460px;
+    margin:450px;
+    font-size:70px;
+    content: '';
+    animation: word-swith 5s infinite;
+}
+
+@keyframes word-swith 
+{
+    0% {content: '\01F4DA'}
+
+    50%{content: '	\01F4D6';}
+
+    100%{content: '	\01F9E0';}
+}
+ol{
+    margin-left:-20px ; 
+    list-style: none;
+    display:flex;
+    text-indent: 45px;/* espaçamento entre as imagens*/
+    margin-top: 50px;
+  }
+  
+  ol img{
+    box-shadow: 12px 18px 28px 18px rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+  
+  }
+  
