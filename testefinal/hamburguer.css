@@ -1,0 +1,142 @@
+/* retirado do site: https://codepen.io/erinesullivan/pen/VQjzmZ */
+
+
+aside {
+    
+    color: #1d1f20;
+    left: 0;
+    position: relative;
+    top:0px;
+    z-index: 9999;
+  }
+  
+  /*** INPUT ***/
+  aside input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    
+  }
+  
+  /*** LABEL ***/
+  aside label {
+    cursor: pointer;
+    display: flex;
+    font:40px 'Oswald', sans-serif;
+    padding:5px;
+  }
+  
+  /* Hamburger Icon */
+  #menu-icon,
+  #menu-icon:before,
+  #menu-icon:after {
+    background: #1d1f20;
+    border-radius: 0.05em;
+    height: 0.2em;
+    width: 100%;
+  }
+  
+  #menu-icon {
+    display: inline-block;
+    margin-top:-200px;
+    max-width: 1em;
+    position: relative;
+    display: flex;
+  }
+  
+  /* aside label #menu-icon {
+    float: right;
+  } */
+  
+  #menu-icon:before,
+  #menu-icon:after {
+    content: '';
+    left: 0;
+    position: absolute;
+  }
+  
+  #menu-icon:before {
+    top: -0.4em;
+  }
+  
+  #menu-icon:after {
+    bottom: -0.4em;
+  }
+  
+  /* Close Icon */
+  aside input[type=checkbox]:checked + label #menu-icon {
+    background: transparent;
+  }
+  
+  aside input[type=checkbox]:checked + label #menu-icon:before {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  
+  aside input[type=checkbox]:checked + label #menu-icon:after {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  
+  
+  /*** MENU ***/
+  /* Overlay */
+ aside input:checked ~ #overlay { 
+    background: #7096b4;
+    /* bottom: 0; */
+    left: 0;
+    height: 11%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+   }
+  
+  /* List */
+   aside ul {
+    font-size:20px;
+    list-style: none;
+    opacity: 0;
+    /* overflow: hidden; */
+    padding: 0px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top:-210px;
+    /* max-width:200px; */
+    text-indent: 60px;
+
+    display: flex;
+  }
+  
+  aside input:checked ~ ul {
+   /* margin-left: -10px; */
+    max-height: inherit;
+    opacity: 1;
+  }
+  /* 
+  aside ul li {
+    margin-left: -200px;
+  } */
+  
+  aside ul a {
+    /* color: #1d1f20!important; */
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin-top:0px;
+    display:flex;
+  }
+  
+  aside ul a:hover {
+    text-decoration: underline;
+  }
+  aside li{
+    margin-top:0px;
+  }
+  
+  /* Social Media */
+  /* aside ul#social-media > li {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0.5em;
+  } */
